@@ -1,0 +1,52 @@
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+htmlcov/
+coverage.xml
+.coverage
+
+# Jupyter runtime artifacts
+.ipynb_checkpoints/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Local environment files 
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.orig
